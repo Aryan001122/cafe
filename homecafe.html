@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee House - Home</title>
+    <link rel="icon" type="image/x-icon" href="JCH FAVICON.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap" rel="stylesheet">
+   <style>
+        body {
+            background-color: #fdf6e3;
+            margin: 0;
+            padding: 0;
+            font-family: 'Playwrite NO', sans-serif;
+        }
+
+        .navbar {
+            background-color: #f8f9fa !important;
+        }
+
+        .navbar-brand {
+            font-size: 28px;
+            color: #ee952f;
+        }
+
+        .navbar-nav .nav-link {
+            font-size: 18px;
+            color: #333333;
+            font-weight: 400;
+        }
+
+        .navbar-nav .nav-link.active {
+            color: #f2952a !important;
+        }
+
+        .hero-section {
+            background: url('hero-bg.jpg') no-repeat center center;
+            background-size: cover;
+            color: #f3a425;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .hero-section h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero-section p {
+            font-size: 24px;
+        }
+
+        .section-title {
+            font-size: 32px;
+            color: #ee952f;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .section-content {
+            font-size: 18px;
+            color: #555555;
+            text-align: center;
+        }
+
+        .footer {
+            background-color: #333333;
+            padding: 40px 0;
+            color: #ffffff;
+        }
+
+        .footer h5 {
+            font-size: 22px;
+            color: #f8f9fa;
+            margin-bottom: 20px;
+        }
+
+        .list-group-item {
+            background-color: transparent;
+            border: none;
+            color: #f8f9fa;
+            font-size: 18px;
+        }
+
+        .list-group-item:hover {
+            background-color: #f2952a;
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        @media (max-width: 768px) {
+            .navbar-toggler img {
+                height: 30px;
+            }
+
+            .hero-section h1 {
+                font-size: 36px;
+            }
+
+            .hero-section p {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <img class="logo" src="coffee house.jpg" height="200" width="200" alt="Coffee House Logo">
+                <a class="navbar-brand" href="index.html">Coffee House</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="https://i.imgur.com/6H1733v.png" alt="Menu" height="35">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="homecafe.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <h1>Welcome to Coffee House</h1>
+                <p>Your online destination for premium coffee experiences and resources.</p>
+            </div>
+        </section>
+
+        <section class="container mt-5">
+            <h2 class="section-title">About Us</h2>
+            <div class="section-content">
+                <p>At Coffee House, we are dedicated to bringing the best of coffee culture to you through our
+                    comprehensive online platform. Our website provides a curated selection of coffee varieties,
+                    brewing guides, and expert tips to help you enjoy coffee like never before.</p>
+                <p>Whether you're a seasoned coffee connoisseur or just beginning your coffee journey, we offer a
+                    wealth of resources and a community of coffee lovers to share your passion. Discover our blog,
+                    explore coffee-making techniques, and connect with others who share your enthusiasm.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer text-center">
+        <div class="container">
+            <h5>Connect With Us</h5>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="mailto:info@coffeehouse.com">Email Us</a></li>
+                <li class="list-group-item"><a href="https://facebook.com/coffeehouse" target="_blank">Facebook</a></li>
+                <li class="list-group-item"><a href="https://twitter.com/coffeehouse" target="_blank">Twitter</a></li>
+                <li class="list-group-item"><a href="https://instagram.com/coffeehouse" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-wfSxURy+knT10LZNNK8d8b8f0WJq7xNJg6FvLkF6GzFzI/8DROslQkZTjsZFL1q2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
